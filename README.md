@@ -1,16 +1,80 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚗 Parking Finder
 
-Currently, two official plugins are available:
+A web application that helps users discover and book parking spaces conveniently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Live Demo:** https://parking-finder-eight.vercel.app/
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Parking Finder is a web-based application designed to make finding parking spaces easier. Users can search for parking based on location, check available parking slots, view parking locations on a map, and book parking spaces.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search parking spaces by area or location.
+- 🅿️ View parking slot availability.
+- 🗺️ Map-based parking location view.
+- 📅 Book available parking slots.
+- 💻 Responsive web interface.
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- Vite
+- Tailwind CSS
+- Leaflet
+- React Leaflet
+- Lucide React
+
+## 📂 Project Structure
+
+```text
+Parking-Finder/
+├── public/
+├── server/
+├── src/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/omiii24/Parking-Finder.git
+```
+
+2. Open the project folder:
+
+```bash
+cd Parking-Finder
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal.
+
+## 🌐 Live Website
+
+https://parking-finder-eight.vercel.app/
+
+## 👨‍💻 Developer
+
+**Om Pawar**
+
+GitHub: https://github.com/omiii24
